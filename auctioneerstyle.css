@@ -1,0 +1,142 @@
+html {
+    background: #000;
+    background-image: linear-gradient(270deg, rgb(186, 200, 252) 0%, rgb(216, 221, 221) 100%);
+    font-family: "Arial", sans-serif;
+    color: #041451;
+}
+
+#wrapper {
+    width: 860px; 
+    height: 1150px; 
+    background: #fefcbe;
+    font-family: "Arial", sans-serif;
+    color: #041451; 
+    margin: auto;
+	border-radius: 4px;
+}/*width, height, background, color and mergin of website*/
+
+#nav {
+    background:#fceeba; width:100%; height:92px;
+	position:relative;
+	border-radius: 4px;
+}/*Color width and height of the navigation menu*/
+
+img {
+    height: 92px;
+    width: 197px;
+	border-radius: 4px;
+}
+
+a {
+	padding: 10px 15px;	
+	position: relative;
+	bottom: 40px;
+	left: 20px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #041451;	
+}
+a:hover {
+	background-color: #bac8fc;
+	border-radius: 4px;
+	color: white;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+h1 {
+	padding: 5px 80px;
+	text-align: center;
+}
+
+#menu {
+    padding: 5px 80px;
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+	-webkit-column-fill: balance; /* Chrome */
+	-moz-column-fill: balance; /* Firefox */
+  	column-fill: balance;
+}
+
+.button {
+    background-color: #bac8fc;
+    position: relative;
+    width: 250px;
+    border: 10px;
+    color: black;
+    padding: 16px 30px;
+	border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button:hover {
+	color: white;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button:disabled,
+.button[disabled]{
+  	color: grey;
+}
+.repbutton {
+    background-color: #bac8fc;
+	width: 100%;
+    color: black;
+	border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.repbutton:hover {
+	color: white;
+}
+
+form{
+	position: relative;
+	padding: 5px 80px;
+	line-height: 200%;
+
+}
+.formsub {
+	background-color: #bac8fc;
+	width: 150px;
+	position: absolute;
+	left: 345px;
+    border: 10px;
+    color: black;
+    padding: 15px 32px;
+	border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+table{
+	width: 100%;
+}
+table, th, td {
+	padding: 15px;
+	border-bottom: 1px solid #041451;
+}
+
+.textbox {
+	width: auto;
+	position: absolute;
+	left: 350px;
+}
+.textbox2 {
+	width: auto;
+	position: absolute;
+	left: 550px;
+}
+#display {
+	text-align: center;
+}
+p {
+	text-align: center
+}
